@@ -11,6 +11,8 @@
 		01C787562BE403E70071172E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C787552BE403E70071172E /* ContentView.swift */; };
 		01C787582BE403E80071172E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C787572BE403E80071172E /* Assets.xcassets */; };
 		01C7875B2BE403E80071172E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C7875A2BE403E80071172E /* Preview Assets.xcassets */; };
+		01C787692BE406370071172E /* CarShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C787682BE406370071172E /* CarShopViewModel.swift */; };
+		01C7876B2BE4064F0071172E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C7876A2BE4064F0071172E /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		01C787552BE403E70071172E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01C787572BE403E80071172E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01C7875A2BE403E80071172E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01C787682BE406370071172E /* CarShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarShopViewModel.swift; sourceTree = "<group>"; };
+		01C7876A2BE4064F0071172E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,9 @@
 		01C787522BE403E70071172E /* SwiftUICarShop */ = {
 			isa = PBXGroup;
 			children = (
-				01C787532BE403E70071172E /* SwiftUICarShopApp.swift */,
-				01C787552BE403E70071172E /* ContentView.swift */,
-				01C787572BE403E80071172E /* Assets.xcassets */,
+				01C787612BE405AD0071172E /* Application */,
+				01C787632BE405D90071172E /* Modules */,
+				01C787622BE405B70071172E /* SupportingFiles */,
 				01C787592BE403E80071172E /* Preview Content */,
 			);
 			path = SwiftUICarShop;
@@ -65,6 +69,64 @@
 				01C7875A2BE403E80071172E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01C787612BE405AD0071172E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				01C787532BE403E70071172E /* SwiftUICarShopApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		01C787622BE405B70071172E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				01C787572BE403E80071172E /* Assets.xcassets */,
+				01C7876A2BE4064F0071172E /* Colors.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		01C787632BE405D90071172E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				01C787642BE405E30071172E /* CarShopModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		01C787642BE405E30071172E /* CarShopModule */ = {
+			isa = PBXGroup;
+			children = (
+				01C787672BE406040071172E /* Model */,
+				01C787662BE405FE0071172E /* View */,
+				01C787652BE405F40071172E /* ViewModel */,
+			);
+			path = CarShopModule;
+			sourceTree = "<group>";
+		};
+		01C787652BE405F40071172E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				01C787682BE406370071172E /* CarShopViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		01C787662BE405FE0071172E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01C787552BE403E70071172E /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01C787672BE406040071172E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C7876B2BE4064F0071172E /* Colors.xcassets in Resources */,
 				01C7875B2BE403E80071172E /* Preview Assets.xcassets in Resources */,
 				01C787582BE403E80071172E /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C787692BE406370071172E /* CarShopViewModel.swift in Sources */,
 				01C787562BE403E70071172E /* ContentView.swift in Sources */,
 				01C787542BE403E70071172E /* SwiftUICarShopApp.swift in Sources */,
 			);
