@@ -13,6 +13,10 @@
 		01C7875B2BE403E80071172E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C7875A2BE403E80071172E /* Preview Assets.xcassets */; };
 		01C787692BE406370071172E /* CarShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C787682BE406370071172E /* CarShopViewModel.swift */; };
 		01C7876B2BE4064F0071172E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C7876A2BE4064F0071172E /* Colors.xcassets */; };
+		01C7876D2BE4CCDC0071172E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7876C2BE4CCDC0071172E /* Car.swift */; };
+		01C7876F2BE4D1910071172E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7876E2BE4D1910071172E /* ActivityView.swift */; };
+		01C787712BE4D4020071172E /* PriceChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C787702BE4D4020071172E /* PriceChange.swift */; };
+		01C787732BE4D4240071172E /* InsureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C787722BE4D4240071172E /* InsureToggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		01C7875A2BE403E80071172E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01C787682BE406370071172E /* CarShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarShopViewModel.swift; sourceTree = "<group>"; };
 		01C7876A2BE4064F0071172E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		01C7876C2BE4CCDC0071172E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		01C7876E2BE4D1910071172E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		01C787702BE4D4020071172E /* PriceChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChange.swift; sourceTree = "<group>"; };
+		01C787722BE4D4240071172E /* InsureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsureToggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				01C787552BE403E70071172E /* ContentView.swift */,
+				01C7876E2BE4D1910071172E /* ActivityView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +134,9 @@
 		01C787672BE406040071172E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				01C7876C2BE4CCDC0071172E /* Car.swift */,
+				01C787702BE4D4020071172E /* PriceChange.swift */,
+				01C787722BE4D4240071172E /* InsureToggle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,8 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				01C787692BE406370071172E /* CarShopViewModel.swift in Sources */,
+				01C787712BE4D4020071172E /* PriceChange.swift in Sources */,
 				01C787562BE403E70071172E /* ContentView.swift in Sources */,
+				01C7876D2BE4CCDC0071172E /* Car.swift in Sources */,
+				01C7876F2BE4D1910071172E /* ActivityView.swift in Sources */,
 				01C787542BE403E70071172E /* SwiftUICarShopApp.swift in Sources */,
+				01C787732BE4D4240071172E /* InsureToggle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
